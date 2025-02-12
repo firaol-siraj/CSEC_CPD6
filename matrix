@@ -1,0 +1,10 @@
+n=int(input())
+y=[]
+a=1
+for i in range(n):
+    x=int(input())
+    y.append(x)
+for i in range(n-1):
+    if y[i]!= y[i+1]:
+        a+=1 
+print(a)
