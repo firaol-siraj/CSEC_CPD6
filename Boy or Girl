@@ -1,0 +1,10 @@
+n=input()
+m=""
+for char in n:
+    if char not in m:
+        m+=char
+c=len(m)
+if c%2==0:
+    print("CHAT WITH HER!" )
+else:
+    print("IGNORE HIM!")
