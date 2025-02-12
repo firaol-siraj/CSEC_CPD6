@@ -1,0 +1,14 @@
+n=input()
+m=0
+p=0
+for char in n:
+    if char == char.upper(): 
+        m+=1
+    elif char == char.lower():
+        p+=1
+if m > p:
+    k=n.upper()
+    print(k)
+else: 
+    k=n.lower()
+    print(k)
